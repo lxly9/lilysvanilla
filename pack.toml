@@ -1,0 +1,16 @@
+name = "Lily's Vanilla OverQuilted"
+author = "gayasslily"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "587377dab2fd6c10541aee49df3e9492bf0a0f9f41b331e4cfc3197cd2b745d8"
+
+[versions]
+minecraft = "1.19.2"
+quilt = "0.18.10"
+
+[options]
+acceptable-game-versions = ["1.19", "1.19.2"]
