@@ -1,0 +1,76 @@
+{
+  "filters": [
+    {
+      "id": "stalagnate_bowl"
+    },
+    {
+      "id": "farmersdelight:cutting/acacia_log"
+    },
+    {
+      "id": "farmersdelight:cutting/acacia_wood"
+    },
+    {
+      "id": "farmersdelight:cutting/birch_log"
+    },
+    {
+      "id": "farmersdelight:cutting/birch_wood"
+    },
+    {
+      "id": "farmersdelight:cutting/dark_oak_log"
+    },
+    {
+      "id": "farmersdelight:cutting/dark_oak_wood"
+    },
+    {
+      "id": "farmersdelight:cutting/jungle_log"
+    },
+    {
+      "id": "farmersdelight:cutting/jungle_wood"
+    },
+    {
+      "id": "farmersdelight:cutting/oak_log"
+    },
+    {
+      "id": "farmersdelight:cutting/oak_wood"
+    },
+    {
+      "id": "farmersdelight:cutting/spruce_log"
+    },
+    {
+      "id": "farmersdelight:cutting/spruce_wood"
+    },
+    {
+      "id": "farmersdelight:cutting/mangrove_log"
+    },
+    {
+      "id": "farmersdelight:cutting/mangrove_wood"
+    },
+    {
+      "id": "farmersdelight:cutting/crimson_stem"
+    },
+    {
+      "id": "farmersdelight:cutting/crimson_hyphae"
+    },
+    {
+      "id": "farmersdelight:cutting/warped_stem"
+    },
+    {
+      "id": "farmersdelight:cutting/warped_hyphae"
+    },
+    {
+      "id": "culturaldelights:cutting/avocado_log"
+    },
+    {
+      "id": "culturaldelights:cutting/avocado_wood"
+    },
+    {
+      "category": "betterend:anvil"
+    },
+    {
+      "category": "betterend:alloying"
+    },
+    {
+      "category": "betternether:forge"
+    }
+  ]
+}
