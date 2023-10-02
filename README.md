@@ -1,6 +1,7 @@
 # lilysvanilla
 Repository of the Modpack Lily's Vanilla OverQuilted
-![lvoq_textv2]()
+![lvoq_textv3](https://github.com/lxly9/lilysvanilla/assets/102386118/3b9abeb7-a98d-4042-9e5a-5c89644a183f)
+
 
 <details>
 <summary>Included Mods</summary>
