@@ -210,3 +210,6 @@ Repository of the Modpack Lily's Vanilla OverQuilted
 
 
 </details>
+
+![nethersdel](https://github.com/lxly9/lilysvanilla/assets/102386118/12f9114e-9dc6-4126-9a57-0aff3e1e8103)
+![brewin](https://github.com/lxly9/lilysvanilla/assets/102386118/50c799a7-c8c0-469b-a8b1-1b3a9639cb22)
