@@ -1,0 +1,273 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/minecraft/textures/gui/title/2023-05-14_20.12.12.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=2980%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 226
+  action = deep_customization_element:title_screen_branding
+  actionid = 0794565a-70b6-49e7-82a4-b14c9130be221689071647106
+  y = 348
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 533
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 72103160-757a-4af3-8f6a-f057a1ce65c51689071647117
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 293
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 4bc2f1cb-fea0-47e4-950c-3aa789b8eb751689071647117
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = c81164bc-c7d7-4002-a9d5-236062b255351689071647117
+  y = 0
+  height = 30
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/4","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = multi_1
+  delayappearanceseconds = 1.0
+  buttonaction = opengui;net.minecraft.class_500%btnaction_splitter_fm%
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-{"placeholder":"elementwidth","values":{"id":"09a212b6-c89c-4531-8b04-658336db38c01689076894370"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/4","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/2-{"placeholder":"elementheight","values":{"id":"09a212b6-c89c-4531-8b04-658336db38c01689076894370"}}/5","decimal":"true"}}
+  loopbackgroundanimations = true
+  hoverlabel = Multiplayer
+  fadein = true
+  fadeinspeed = 1.0
+  x = 0
+  width = 215
+  action = addbutton
+  actionid = 09a212b6-c89c-4531-8b04-658336db38c01689076894370
+  y = 0
+  delayappearance = true
+  backgroundnormal = kubejs/assets/multi_1/frames_main/static_multi.png
+  delayappearanceeverytime = false
+  height = 215
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 1.0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-{"placeholder":"elementwidth","values":{"id":"d0061ed6-7fc2-4f0d-8d41-2cf94e2858c81689085531929"}}/2","decimal":"true"}}
+  path = kubejs/assets/minecraft/textures/gui/title/vanillaoq.png
+  fadein = true
+  fadeinspeed = 0.5
+  x = 0
+  width = 325
+  action = addtexture
+  actionid = d0061ed6-7fc2-4f0d-8d41-2cf94e2858c81689085531929
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 150
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/4","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = single_1
+  delayappearanceseconds = 1.0
+  buttonaction = opengui;net.minecraft.class_526%btnaction_splitter_fm%
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-{"placeholder":"elementwidth","values":{"id":"c200569f-8806-4d6c-89c3-fadca1b9a9ad1689076978339"}}-{"placeholder":"elementwidth","values":{"id":"09a212b6-c89c-4531-8b04-658336db38c01689076894370"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/4","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/2-{"placeholder":"elementheight","values":{"id":"c200569f-8806-4d6c-89c3-fadca1b9a9ad1689076978339"}}/2","decimal":"true"}}
+  loopbackgroundanimations = true
+  hoverlabel = Singleplayer
+  fadein = true
+  fadeinspeed = 1.0
+  x = 0
+  width = 215
+  action = addbutton
+  actionid = c200569f-8806-4d6c-89c3-fadca1b9a9ad1689076978339
+  y = 0
+  delayappearance = true
+  backgroundnormal = kubejs/assets/single_1/frames_main/static_single.png
+  delayappearanceeverytime = false
+  height = 215
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = quitgame%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/minecraft/textures/gui/title/barrier.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Quit
+  x = -47
+  width = 30
+  action = addbutton
+  actionid = 15effa51-5e16-4122-80d7-1cb9556630e01689084253492
+  y = -44
+  backgroundnormal = kubejs/assets/minecraft/textures/gui/title/barrier.png
+  height = 30
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/4","decimal":"true"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = options_1
+  delayappearanceseconds = 1.0
+  buttonaction = opengui;net.minecraft.class_429%btnaction_splitter_fm%
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2+{"placeholder":"elementwidth","values":{"id":"065b8c90-46ee-4c8b-bfa9-428eb28323f01689071692989"}}/2.24","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/4","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/2-{"placeholder":"elementheight","values":{"id":"c200569f-8806-4d6c-89c3-fadca1b9a9ad1689076978339"}}/2","decimal":"true"}}
+  loopbackgroundanimations = true
+  hoverlabel = Options
+  fadein = true
+  fadeinspeed = 1.0
+  x = 0
+  width = 215
+  action = addbutton
+  actionid = 065b8c90-46ee-4c8b-bfa9-428eb28323f01689071692989
+  y = 0
+  delayappearance = true
+  backgroundnormal = kubejs/assets/options_1/frames_main/static_options.png
+  delayappearanceeverytime = false
+  height = 215
+}
+
+customization {
+  orientation = bottom-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://ko-fi.com/gayasslily%btnaction_splitter_fm%
+  x = -68
+  width = 20
+  action = addbutton
+  actionid = 5954df7f-cf29-40db-9dcf-9e5cee083a671689101144758
+  y = -39
+  label = 
+  height = 20
+}
+
+customization {
+  orientation = bottom-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://modrinth.com/modpack/lvoq%btnaction_splitter_fm%
+  x = -93
+  width = 20
+  action = addbutton
+  actionid = 5e01d205-35be-4945-9df6-af75e194aadd1689101178378
+  y = -39
+  label = 
+  height = 20
+}
+
+customization {
+  path = kubejs/assets/minecraft/textures/gui/title/ko-fi.png
+  orientation = bottom-right
+  x = -66
+  width = 16
+  action = addtexture
+  actionid = 68b3987b-a1b5-452a-a16b-aa34fb4774ea1689101392776
+  y = -37
+  height = 16
+}
+
+customization {
+  path = kubejs/assets/minecraft/textures/gui/title/modrinth.png
+  orientation = bottom-right
+  x = -91
+  width = 16
+  action = addtexture
+  actionid = 3e37cc47-bbc2-4c9c-9eb0-82f8f12763db1689101431110
+  y = -37
+  height = 16
+}
+

@@ -1,0 +1,25 @@
+{
+  "portals": [
+    {
+      "dimension": "minecraft:overworld",
+      "item": "betterend:eternal_crystal",
+      "colorRed": 255,
+      "colorGreen": 255,
+      "colorBlue": 255
+    },
+    {
+	"dimension": "minecraft:the_nether",
+	"item": "minecraft:amethyst_shard",
+	"colorRed": 255,
+      "colorGreen": 255,
+      "colorBlue": 255
+    },
+    {
+	"dimension": "deeperdarker:otherside",
+	"item": "deeperdarker:reinforced_echo_shard",
+	"colorRed": 255,
+      "colorGreen": 255,
+      "colorBlue": 255
+    }
+  ]
+}
