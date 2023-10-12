@@ -208,6 +208,7 @@ Repository of the Modpack Lily's Vanilla OverQuilted
 
 </details>
 
+The texture files 'wheat_flour.png' and 'bar_of_chocolate.png' were taken from [Create's repository](https://github.com/Creators-of-Create/Create/tree/mc1.18/dev/src/main/resources/assets/create/textures/item)
 
 </details>
 <details>
